@@ -1,0 +1,17 @@
+module Main where
+
+import Prelude
+import Effect (Effect)
+import Effect.Console (log)
+
+main :: Effect Unit
+main = do
+  log "127837"
+
+dog ::
+  String ->
+  String ->
+  String -> String -> String
+dog a d o g = "doedsdsd"
+
+
